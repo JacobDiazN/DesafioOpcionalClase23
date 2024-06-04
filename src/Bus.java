@@ -3,6 +3,7 @@ public class Bus extends Vehiculo{
     private int cantidadDeAsientos;
 
     public Bus() {
+        super("FXPB58");
     }
 
     public Bus(String color, String patente, int cantidadDeAsientos) {

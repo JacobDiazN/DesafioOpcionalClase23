@@ -42,3 +42,5 @@ public class Tienda {
         return "Cantidad de stock es: " + getStock();
     }
 }
+
+

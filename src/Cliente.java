@@ -1,6 +1,10 @@
 public class Cliente extends Persona{
 
-    public Cliente() {
+    private Persona persona;
+
+    // Constructor sin parámetros
+    public Cliente(int edad) {
+        super("", edad, ""); // Iniciar atributos con valores por defecto
     }
 
     public Cliente(String rut, int edad, String nombre) {

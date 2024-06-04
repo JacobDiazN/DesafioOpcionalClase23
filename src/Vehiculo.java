@@ -3,7 +3,8 @@ public class Vehiculo {
     private String color;
     private String patente;
 
-    public Vehiculo() {
+    public Vehiculo(String patente) {
+        this.patente = patente;
     }
 
     public Vehiculo(String color, String patente) {
